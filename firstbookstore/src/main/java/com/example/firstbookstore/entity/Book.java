@@ -38,7 +38,7 @@ public class Book {
 	@Column(name="image_url")
 	private String imageUrl;
 	
-	@Column(name="active")
+	@Column(name="activated")
 	private int active;
 	
 	@Column(name="units_in_stock")

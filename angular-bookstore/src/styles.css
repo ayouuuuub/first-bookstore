@@ -1,10 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
 @font-face {
     font-family: 'Montserrat';
-    src: url('./assets/font/Montserrat-Regular.otf') format("truetype");
+    src: url('/assets/font/Montserrat-Regular.otf') format("truetype");
 }
 
 body {
     font-family: 'Montserrat';
+    padding-top: 59px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+footer {
+    position: absolute;
+    width: 100vw;
+    height: 90px;
 }
